@@ -22,7 +22,7 @@ public class SnakeCamelTest {
 	@Test
 	public void キャメルケースの文字列をスネークケースに変換する() {
 		SnakeCamelUtil scu= new SnakeCamelUtil();
-		String expected = "abc_def_ghi";
+		String expected =  "abc_def_ghi";
 		String actual = scu.camelToSnakecase("AbcDefGhi"); 
 		assertEquals(expected,actual);
 				
